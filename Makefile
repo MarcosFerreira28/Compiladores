@@ -4,7 +4,8 @@ CFLAGS = -Wall -Wextra -Iinclude
 
 TARGET = cminus
 
-SRC = src/main.c
+SRC = src/main.c \
+      src/lexer/token.c
 
 all:
 	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
