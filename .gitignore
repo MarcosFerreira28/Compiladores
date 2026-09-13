@@ -1,0 +1,22 @@
+#Executável
+cminus
+
+#Arquivos gerados pelo Flex
+lex.yy.c
+
+#Arquivos gerados pelo Bison
+parser.tab.c
+parser.tab.h
+
+#Build
+build/
+
+#Saída MIPS
+output/*.asm
+
+#Sistema operacional
+.DS_Store
+Thumbs.db
+
+#Editor
+.vscode/
